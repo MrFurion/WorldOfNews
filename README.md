@@ -70,13 +70,14 @@ Logic: http://localhost:8080/swagger-ui.html
 
 ### Тестовые пользователи
 
--Логин Пароль Роль
--Admin 4444 ADMIN
--Journalist 4444 JOURNALIST 
--Subscriber 4444 SUBSCRIBER
+| Логин        | Пароль | Роль          |
+|--------------|--------|---------------|
+| `Admin`      | `4444` | `ADMIN`       |
+| `Journalist` | `4444` | `JOURNALIST`  |
+| `Subscriber` | `4444` | `SUBSCRIBER`  |
 
-**Используйте POST /auth/login на NewsSecurityServer для получения JWT.**
-
+> **Используйте `POST /auth/login` на NewsSecurityServer для получения JWT.**
+> 
 ### Технологии
 
 - Spring Boot 3
