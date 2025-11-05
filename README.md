@@ -73,16 +73,16 @@ Admin 4444 ADMIN
 Journalist 4444 JOURNALIST 
 Subscriber 4444 SUBSCRIBER
 
-`` text
+``` text
 | Используйте POST /auth/login на NewsSecurityServer для получения JWT.
-``
+```
 ### Технологии
 
-Spring Boot 3
-Spring Security + JWT
-PostgreSQL
-Docker Compose
-Swagger / OpenAPI
-Lombok, MapStruct
-JPA / Hibernate
+-Spring Boot 3
+-Spring Security + JWT
+-PostgreSQL
+-Docker Compose
+-Swagger / OpenAPI
+-Lombok, MapStruct
+-JPA / Hibernate
 
