@@ -77,6 +77,7 @@ Subscriber 4444 SUBSCRIBER
 | Используйте POST /auth/login на NewsSecurityServer для получения JWT.
 
 ### Технологии
+****
         -Spring Boot 3
         -Spring Security + JWT
         -PostgreSQL
