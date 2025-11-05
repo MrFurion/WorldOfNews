@@ -15,10 +15,12 @@
 ---
 
 ## Архитектура
+
+```text
 Клиент (Frontend / Postman / Swagger)
-│
-├──→ NewsSecurityServer (Auth)
-│       └── JWT Token
-│
-└──→ NewsLogicServer (Business Logic)
-└── Все операции с новостями и комментариями
+        │
+        ├──→ NewsSecurityServer (Auth)
+        │       └── JWT Token
+        │
+        └──→ NewsLogicServer (Business Logic)
+                └── Все операции с новостями и комментариями
