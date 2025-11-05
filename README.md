@@ -58,11 +58,10 @@
    docker-compose up -d
 
 3. **Запустите приложение:**
-Откройте каждый проект в IntelliJ IDEA
-Запустите главный класс:
-
--NewsSecurityServerApplication
--NewsLogicServerApplication
+   - Откройте каждый проект в IntelliJ IDEA
+   - Запустите главный класс:
+     - `NewsSecurityServerApplication`
+     - `NewsLogicServerApplication`
 
 4. **Проверьте доступность API:**
 Security: http://localhost:8081/swagger-ui.html
