@@ -50,3 +50,9 @@
    ```bash
    git clone https://github.com/MrFurion/NewsSecurityServer.git
    git clone https://github.com/MrFurion/NewsLogicServer.git
+
+2. **Запустите каждый сервис:**
+Перейдите в папку каждого проекта и выполните:
+   ```bash
+   docker-compose up -d
+
