@@ -17,7 +17,6 @@
 ## Архитектура
 Клиент (Frontend / Postman / Swagger)
 │
-
 ├──→ NewsSecurityServer (Auth)
 │       └── JWT Token
 │
