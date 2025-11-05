@@ -61,8 +61,8 @@
 Откройте каждый проект в IntelliJ IDEA
 Запустите главный класс:
 
-NewsSecurityServerApplication
-NewsLogicServerApplication
+-NewsSecurityServerApplication
+-NewsLogicServerApplication
 
 4. **Проверьте доступность API:**
 Security: http://localhost:8081/swagger-ui.html
