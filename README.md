@@ -56,3 +56,33 @@
    ```bash
    docker-compose up -d
 
+3. **Запустите приложение:**
+Откройте каждый проект в IntelliJ IDEA
+Запустите главный класс:
+
+NewsSecurityServerApplication
+NewsLogicServerApplication
+
+4. **Проверьте доступность API:**
+Security: http://localhost:8081/swagger-ui.html
+Logic: http://localhost:8080/swagger-ui.html
+
+### Тестовые пользователи
+Логин Пароль Роль
+Admin 4444 ADMIN
+Journalist 4444 JOURNALIST 
+Subscriber 4444 SUBSCRIBER
+
+`` text
+| Используйте POST /auth/login на NewsSecurityServer для получения JWT.
+``
+### Технологии
+
+Spring Boot 3
+Spring Security + JWT
+PostgreSQL
+Docker Compose
+Swagger / OpenAPI
+Lombok, MapStruct
+JPA / Hibernate
+
