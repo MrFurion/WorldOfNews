@@ -74,9 +74,7 @@ Admin 4444 ADMIN
 Journalist 4444 JOURNALIST 
 Subscriber 4444 SUBSCRIBER
 
-``` text
 | Используйте POST /auth/login на NewsSecurityServer для получения JWT.
-
 
 ### Технологии
 -Spring Boot 3
