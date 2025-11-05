@@ -24,3 +24,30 @@
         │
         └──→ NewsLogicServer (Business Logic)
                 └── Все операции с новостями и комментариями
+
+- **NewsSecurityServer** — отвечает за:
+  - Регистрацию (`POST /auth/signup`)
+  - Вход в систему (`POST /auth/login` → JWT)
+  - Роли: `ADMIN`, `JOURNALIST`, `SUBSCRIBER`
+
+- **NewsLogicServer** — отвечает за:
+  - CRUD новости и комментариев
+  - Полнотекстовый поиск
+  - Пагинацию
+  - Ролевой доступ через JWT
+
+---
+
+## Быстрый старт
+
+### Предварительные требования
+- Docker & Docker Compose
+- Java 17+
+- IntelliJ IDEA (рекомендуется)
+
+### Запуск системы
+
+1. **Клонируйте оба репозитория:**
+   ```bash
+   git clone https://github.com/MrFurion/NewsSecurityServer.git
+   git clone https://github.com/MrFurion/NewsLogicServer.git
