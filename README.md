@@ -77,7 +77,7 @@ Subscriber 4444 SUBSCRIBER
 ``` text
 | Используйте POST /auth/login на NewsSecurityServer для получения JWT.
 
-```text
+
 ### Технологии
 -Spring Boot 3
 -Spring Security + JWT
@@ -86,5 +86,5 @@ Subscriber 4444 SUBSCRIBER
 -Swagger / OpenAPI
 -Lombok, MapStruct
 -JPA / Hibernate
-```
+---
 
