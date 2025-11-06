@@ -86,4 +86,3 @@ Logic: http://localhost:8080/swagger-ui.html
 - Swagger / OpenAPI
 - Lombok, MapStruct
 - JPA / Hibernate
-
